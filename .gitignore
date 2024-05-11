@@ -1,0 +1,8 @@
+# Ignore virtual environment folder
+env/
+
+# Ignore third-party dependencies folder
+lib/
+Include/
+share/
+Scripts/

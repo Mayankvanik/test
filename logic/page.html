@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Aladdin</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 20px;
+		}
+		.container {
+			width: 80%;
+			margin: 0 auto;
+			text-align: center;
+		}
+		.image-upload {
+			margin-top: 20px;
+		}
+		.image-upload input[type="file"] {
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			width: 100%;
+		}
+		.image-upload button[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.image-upload button[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Welcome to Aladdin</h1>
+		<form action="#" method="post" enctype="multipart/form-data">
+			<label for="image-upload">Select an image:</label>
+			<input type="file" id="image-upload" name="image" accept="image/*">
+			<button type="submit">Upload Image</button>
+		</form>
+	</div>
+</body>
+</html>
